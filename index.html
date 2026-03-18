@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Climber</title>
+    <style>
+.game-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+
+        :root {
+            --primary: #6366f1; /* Lemon Squeezy purple-ish brand color */
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            background-color: #ffffff;
+        }
+        header {
+            background-color: var(--light);
+            padding: 1rem 5%;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 5%;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #4f46e5;
+        }
+        .placeholder-img {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            background-color: #cbd5e1;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            margin: 2rem auto;
+            border: 2px dashed #94a3b8;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        .feature-card {
+            background: var(--light);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .feature-card h3 {
+            margin-top: 0;
+        }
+        .pricing-section {
+            text-align: center;
+            padding: 4rem 0;
+            background-color: var(--light);
+            border-radius: 12px;
+            margin-bottom: 4rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray);
+            border-top: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>HY Innovations</h2>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>City Climber</h1>
+            <p>you will do your best to reach but it will not be enough 🥹</p>
+           <img src="title-screen.jpeg" alt="City Climber Title Screen" class="game-image">
+<img src="gameplay.jpeg" alt="City Climber Gameplay" class="game-image">
+
+            <a href="#pricing" class="cta-button">Pre-order Now</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>🌍 Immersive 3D World</h3>
+                <p>Navigate a fully realized Minecraft-style environment built specifically for language acquisition.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🗣️ Practical Vocabulary</h3>
+                <p>Learn words and phrases by interacting with everyday items, preparing you for the Goethe A1 exam.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💻 For Windows & Mac</h3>
+                <p>Download the standalone game and practice offline at your own pace without subscriptions.</p>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2>Ready to start learning?</h2>
+            <p>Get lifetime access to the current build and all future A1 content updates.</p>
+            <h1 style="color: var(--primary); font-size: 3rem; margin: 1rem 0;">$14.99</h1>
+            <p style="color: var(--gray); margin-bottom: 2rem;">One-time payment. Securely processed via Lemon Squeezy.</p>
+            <a href="#" class="cta-button" style="background-color: var(--dark);">Buy via Lemon Squeezy (Coming Soon)</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 YourStudioName. All rights reserved.</p>
+        <p>Contact: support@yourstudioname.com</p>
+    </footer>
+
+</body>
+</html>
